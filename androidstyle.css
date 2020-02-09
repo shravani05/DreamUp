@@ -1,0 +1,222 @@
+header{
+    height:110px;
+    width: 100%;
+    background-color: #333300;
+    position: relative;
+    color: white;
+}
+
+header img{
+    float:left;
+    height: 110px;
+    width: 110px;
+}
+
+.menu{
+    position: absolute;
+    top: 13px;
+    left: 75%;
+    font-weight: bold;
+   
+}
+
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:hover,a:active{
+    color: sienna;
+}
+
+.menu a{
+    float: right;
+    padding:33px 20px;
+    color: white;
+    font-size: 25px;
+}
+
+header h1{
+    padding-top: 20px;
+    margin-left: 100px;
+    font-size: 50px;
+    
+}
+
+
+.content{
+    background-color: #ffffe6;
+}
+
+#gif{
+    float: right;
+    margin-top: 50px;
+    margin-right:120px;
+    margin-bottom: 0px;
+    height: 400px;
+    width: 300px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.title img{
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.title h1{
+    margin:auto;
+    padding-top: 43px;
+    font-size: 40px;
+}
+
+
+.title{
+    margin:auto;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    color: #826b55;
+}
+
+.courses img{
+   float: left;
+   height:300px;
+   width: 300px;
+}
+
+.courses::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.link{
+    position: relative;
+}
+
+.info img{
+    position: absolute;
+    height: 190px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.info a{
+    position: absolute;
+    padding:33px 20px;
+    font-size: 25px;
+    color: #45290f;
+}
+
+.one img, .four img, .eight img{
+    top:23px;
+    left:170px;
+}
+
+.one a, .four a{
+    top: 200px;
+    left:210px;
+}
+
+.eight a{
+    top: 200px;
+    left:175px;
+}
+
+.two img, .five img, .nine img{
+    top:23px;
+    left:470px;
+}
+
+.two a, .five a{
+    top: 200px;
+    left:510px;
+}
+
+.nine a{
+    top: 200px;
+    left:480px;
+}
+
+.three img, .six img, .ten img{
+    top:23px;
+    left:770px;
+}
+
+.three a, .six a, .ten a{
+    top: 200px;
+    left:810px;
+}
+
+.seven img, .eleven img{
+    top:23px;
+    left:1070px;
+}
+
+.seven a, .eleven a{
+    top: 200px;
+    left: 1110px;
+}
+
+.four{
+    margin-bottom: 20px;
+}
+
+.project{
+    margin-top: 20px;
+    margin-left: 130px;
+    color: #45290f;
+    font-size: 25px;
+}
+
+.project a{
+    color: #45290f;
+}
+
+.project video, img, iframe{
+    height: 500px;
+    width: 800px;
+    
+}
+
+
+
+footer{
+    height:110px;
+    width: 100%;
+    background-color: #333300;
+    position: relative;
+    color: white;
+}
+
+footer img{
+    float:left;
+    height: 110px;
+    width: 110px;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+footer a:hover,a:active{
+    color: sienna;
+}
+
+footer a{
+    float: right;
+    padding:33px 20px;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: bold;
+}
